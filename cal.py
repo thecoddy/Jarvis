@@ -7,9 +7,9 @@ print()
 import cgi 
 import subprocess
 
-form = cgi.FieldStorage()
+#form = cgi.FieldStorage()
 
-x = form.getvalue("x")
+#x = form.getvalue("x")
 
-op = subprocess.getoutput(x)
+op = subprocess.getoutput("cal")
 print(op)
